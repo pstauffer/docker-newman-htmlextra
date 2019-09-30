@@ -9,4 +9,4 @@ It's extended with the additional report `newman-reporter-htmlextra` via this [n
 
 ## License
 
-This project is licensed under `MIT <http://opensource.org/licenses/MIT>`_.
+This project is licensed under [MIT](http://opensource.org/licenses/MIT).
