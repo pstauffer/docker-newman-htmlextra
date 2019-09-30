@@ -7,6 +7,12 @@ It's extended with the additional report `newman-reporter-htmlextra` via this [n
 
 [![](https://images.microbadger.com/badges/image/pstauffer/newman-htmlextra.svg)](https://microbadger.com/images/pstauffer/newman-htmlextra)
 
+## Usage
+
+```
+docker run -it -v collections:/etc/newman pstauffer/newman-htmlextra run test.postman_collection.json
+```
+
 ## License
 
 This project is licensed under [MIT](http://opensource.org/licenses/MIT).
