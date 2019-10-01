@@ -10,7 +10,7 @@ It's extended with the additional report `newman-reporter-htmlextra` via this [n
 ## Usage
 
 ```
-docker run -it -v collections:/etc/newman pstauffer/newman-htmlextra run test.postman_collection.json
+docker run -it -v /tmp/collections:/etc/newman pstauffer/newman-htmlextra run -r htmlextra test.postman_collection.json
 ```
 
 ## License
